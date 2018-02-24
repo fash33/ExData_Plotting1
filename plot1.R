@@ -25,7 +25,7 @@ dbDisconnect(conn)
 png(file = "plot1.png", width = 480, height = 480)
 
 # Costruct the plot
-hist(data$Global_active_power, main = "Global Active Power", xlab= "Global Active Power(Killowatts)", col = "red")
+hist(data$Global_active_power, main = "Global Active Power", xlab= "Global Active Power(Kilowatts)", col = "red")
 
 #Closing the graphics device 
 dev.off()

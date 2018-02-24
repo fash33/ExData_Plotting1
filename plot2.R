@@ -28,7 +28,7 @@ datetime <- strptime(paste(data$Date, data$Time, sep=" "), "%d/%m/%Y %H:%M:%S")
 png(file = "plot2.png", width = 480, height = 480)
 
 # Costruct the plot
-plot(datetime, data$Global_active_power, xlab = "", ylab = "Global Active Power (Killowatts)", type = "l")
+plot(datetime, data$Global_active_power, xlab = "", ylab = "Global Active Power (Kilowatts)", type = "l")
 
 #Closing the graphics device 
 dev.off()
